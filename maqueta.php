@@ -17,34 +17,40 @@
             background: red;
         }
         #contenedor{
-            background-color: grey;
+           border: 1px solid black;
             height: 1050px;
         }
         #header{
-            background: brown;
+
         }
         .contendheader{
             display: inline;
             float: left;
-            height: 120px;
+            text-align: center;
+        }
+        .contendheader img{
+            height: 75px;
         }
         #box1,#box3{
-            background: green;
+
             width: 176px;
         }
         #box2{
-            background-color: blueviolet;
+
             width: 400px;
             text-align: center;
         }
 
         #box1 img{
-            width: 100%;
+            width: 50%;
         }
         #box3 img{
-            width: 100%;
-            display: block;
-            margin: 600vh auto;
+            width: 50%;
+
+        }
+        #barra{
+            border: 3px solid saddlebrown;
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -52,15 +58,16 @@
 <div id="contenedor">
     <div id="header">
         <div class="contendheader" id="box1">
-            <img src="img/mega.png" alt="">
+            <img src="img/mega1.png" alt="">
         </div>
         <div class="contendheader" id="box2">
-            <img src="img/mega.png" alt="">
+            <img src="img/calidad1.png" alt="">
         </div>
         <div class="contendheader" id="box3">
-            <img src="img/TOnline.png" alt="">
+            <img src="img/TOnline1.png" alt="">
         </div>
     </div>
+    <div id="barra"></div>
 </div>
 </body>
 </html>
