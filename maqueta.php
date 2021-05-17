@@ -17,11 +17,12 @@
             background: red;
         }
         #contenedor{
-           border: 1px solid black;
+
             height: 1050px;
+            border: 1px solid black;
         }
         #header{
-
+            background: brown;
         }
         .contendheader{
             display: inline;
@@ -32,11 +33,11 @@
             height: 75px;
         }
         #box1,#box3{
-
+            background: green;
             width: 176px;
         }
         #box2{
-
+            background-color: blueviolet;
             width: 400px;
             text-align: center;
         }
@@ -49,8 +50,9 @@
 
         }
         #barra{
-            border: 3px solid saddlebrown;
+            border: 3px solid #008ad0;
             margin: 5px 0;
+            padding: 0;
         }
     </style>
 </head>
