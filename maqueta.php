@@ -8,37 +8,59 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <style type="text/css">
-        #cabecera{
-            background:#eee;
-            padding:20px;
+        *{
+            border: 0;
+            margin: 0;
+            padding: 0;
         }
-        h2,h3{
-            float:left;
+        body{
+            background: red;
         }
-        #cabecera img{
-            width: 140px;
-            float:right;
+        #contenedor{
+            background-color: grey;
+            height: 1050px;
+        }
+        #header{
+            background: brown;
+        }
+        .contendheader{
+            display: inline;
+            float: left;
+            height: 120px;
+        }
+        #box1,#box3{
+            background: green;
+            width: 176px;
+        }
+        #box2{
+            background-color: blueviolet;
+            width: 400px;
+            text-align: center;
+        }
+
+        #box1 img{
+            width: 100%;
+        }
+        #box3 img{
+            width: 100%;
+            display: block;
+            margin: 600vh auto;
         }
     </style>
 </head>
 <body>
-<div id="cabecera">
-    <img src="php.png" />
-    <h2>Este PDF ha sido generado desde PHP</h2>
-    <h3>Victor Robles -
-        <a href="http://victorroblesweb.es">
-            victorroblesweb.es
-        </a>
-    </h3>
+<div id="contenedor">
+    <div id="header">
+        <div class="contendheader" id="box1">
+            <img src="img/mega.png" alt="">
+        </div>
+        <div class="contendheader" id="box2">
+            <img src="img/mega.png" alt="">
+        </div>
+        <div class="contendheader" id="box3">
+            <img src="img/TOnline.png" alt="">
+        </div>
+    </div>
 </div>
-
-<p>Lista ordenada:
-<ol>
-    <li>PHP</li>
-    <li>Python</li>
-    <li>Ruby</li>
-    <li>Java</li>
-</ol>
-</p>
 </body>
 </html>
