@@ -17,7 +17,6 @@
             background: red;
         }
         #contenedor{
-
             height: 1050px;
             border: 1px solid black;
         }
@@ -48,6 +47,9 @@
         #box3 img{
             width: 50%;
 
+        }
+        #box2 img{
+            width: 100%;
         }
         #barra{
             border: 3px solid #008ad0;
